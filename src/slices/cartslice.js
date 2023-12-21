@@ -17,7 +17,7 @@ const cartSlice = createSlice({
 
        //function to remove all item from cart
        emptyCart:(state)=>{
-        state=[]
+       return state=[]
        }
     }
 })

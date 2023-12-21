@@ -6,6 +6,8 @@ import { emptyCart, removeFromCart } from '../slices/cartslice';
 import { useEffect } from 'react';
 import { useState } from 'react';
 
+
+
 function Cart() {
 
   const dispatch=useDispatch()
@@ -82,8 +84,9 @@ function Cart() {
        <button className='btn btn-success mt-2'><Link style={{textDecoration:"none"}}  to={'/'}>Back To Home</Link></button>
       </div>
     }
-
+      
     </div>
+    
   )
 }
 
